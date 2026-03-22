@@ -1,0 +1,66 @@
+### Python ###
+# Байт-код
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# Виртуальные окружения
+.env/
+.venv/
+venv/
+env/
+ENV/
+
+# Пакеты
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Тесты и покрытие
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+test-reports/
+
+# Jupyter
+.ipynb_checkpoints/
+
+### PyCharm ###
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# JetBrains Project Specific
+.idea/
+!.idea/codeStyles/
+!.idea/codeStyles/codeStyleConfig.xml
+!.idea/inspectionProfiles/
+!.idea/inspectionProfiles/Project_Default.xml
+!.idea/vcs.xml
+!.idea/modules.xml
+!.idea/misc.xml
+!.idea/*.iml
+
+# JetBrains Global
+~$*
+
+### macOS ###
+.DS_Store
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+### VSCode (опционально) ###
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
