@@ -1,66 +1,79 @@
-### Python ###
-# Байт-код
-__pycache__/
-*.py[cod]
-*.pyd
-*.pyo
-
-# Виртуальные окружения
-.env/
-.venv/
+# Виртуальное окружение
 venv/
 env/
 ENV/
+.venv/
+.env
 
-# Пакеты
-*.egg
-*.egg-info/
+# Байткод Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Дистрибутив / упаковка
 dist/
 build/
-pip-wheel-metadata/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
 
-# Тесты и покрытие
-.coverage
-htmlcov/
-.tox/
+# Pytest
 .pytest_cache/
-test-reports/
+.cache/
+htmlcov/
+.coverage
+*.cover
+coverage.xml
 
-# Jupyter
-.ipynb_checkpoints/
+# Mypy
+.mypy_cache/
+.dmypy.json
 
-### PyCharm ###
-*.iml
-*.ipr
-*.iws
-.idea_modules/
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
 
-# JetBrains Project Specific
+# IDE файлы
 .idea/
-!.idea/codeStyles/
-!.idea/codeStyles/codeStyleConfig.xml
-!.idea/inspectionProfiles/
-!.idea/inspectionProfiles/Project_Default.xml
-!.idea/vcs.xml
-!.idea/modules.xml
-!.idea/misc.xml
-!.idea/*.iml
-
-# JetBrains Global
-~$*
-
-### macOS ###
-.DS_Store
-
-### Windows ###
-Thumbs.db
-ehthumbs.db
-[Dd]esktop.ini
-$RECYCLE.BIN/
-
-### VSCode (опционально) ###
 .vscode/
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sublime-project
+*.sublime-workspace
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Логи
+*.log
+logs/
+
+# Переменные окружения (важно!)
+.env
+.env.local
+.env.*.local
+secrets.py
+config.py
+
+# Базы данных
+*.sqlite3
+*.db
+
+# Временные файлы
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Архивы
+*.zip
+*.tar.gz
+*.rar
